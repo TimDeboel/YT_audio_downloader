@@ -5,6 +5,8 @@ This directory contains two scripts for downloading audio files from youtube pla
 
 The results will be stored in the Downloads folder.
 
+You will probably have to right-click 'cleannames.ps1' and go to properties and unblock the file.
+
 Debugging:
 If the program gets stuck on a song in the gain change process, press 'crtl+c' followed by 'n'.
 
