@@ -11,7 +11,7 @@ Debugging:
 If the program gets stuck on a song in the gain change process, press 'crtl+c' followed by 'n'.
 
 If there are .jpg or .webm files in the Downloads folder, it means something went wrong during downloading
-and the song must be redownloaded.
+and the song in question needs to be manually redownloaded.
 
 If there are .mp4 files in the Downloads folder, it means something went wrong during the volume
 normalizing process. They can be deleted and the normalizing can be redone.
