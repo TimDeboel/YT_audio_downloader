@@ -17,8 +17,4 @@ FOR /f "tokens=*" %%G IN ('dir "./Downloads/Songs" /b /s') DO (
     IF "%%~xG" == ".m4a" (aacgain -q -r -c "%%~fG")
 )
 echo ------------------------------------------------------------------------
-choice /c YN /m "Press Y to download another song or N to exit"
-if %ERRORLEVEL% equ 2 exit
-if %ERRORLEVEL% equ 1 goto start
-pause
-exit
+goto start
