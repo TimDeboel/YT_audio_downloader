@@ -1,4 +1,4 @@
-This directory contains two scripts for downloading audio files from youtube playlists, and videos.
+This directory contains two scripts for downloading audio files from youtube playlists, and from separate videos.
 
 - Run Playlist_Downloader and enter a Youtube playlist URL to download all items in the playlist.
 - Run Song_Downloader and enter a Youtube video URL to download the item.
