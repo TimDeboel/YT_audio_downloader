@@ -14,7 +14,7 @@ echo.
 powershell -executionpolicy remotesigned -File "./cleannames.ps1"
 echo.
 FOR /f "tokens=*" %%G IN ('dir "./Downloads/Songs" /b /s') DO (
-    IF "%%~xG" == ".m4a" (aacgain -q -r -c "%%~fG")
+    IF "%%~xG" == ".m4a" (aacgain -q -r -c -d 6 "%%~fG")
 )
 echo ------------------------------------------------------------------------
 goto start
